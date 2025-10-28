@@ -14,8 +14,8 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
   <title>Personal Portfolio</title>
-  <meta content="" name="descriptison" />
-  <meta content="" name="keywords" />
+  <meta content="Senior Data Engineer & Tech Lead specializing in NLP, LLMs, data platforms, and large-scale data collection and pipelines." name="descriptison" />
+  <meta content="Uğur ÖZCAN, Senior Data Engineer, Tech Lead, NLP, LLM, Data Engineering, Machine Learning, Huawei, Python, Docker, PyTorch" name="keywords" />
 
   <!-- Google Fonts -->
   <link
@@ -34,6 +34,14 @@
   <!-- <link href="assets/css/style.css" rel="stylesheet" /> -->
   <!-- <link rel="stylesheet" href="assets/css/styles2.css" /> -->
   <link rel="stylesheet" href="assets/css/styles3.css" />
+
+  <style>
+    /* Hide hero details when header switches to compact mode */
+    #header.header-top .hero-intro,
+    #header.header-top .hero-meta,
+    #header.header-top .worked-with { display: none !important; }
+  </style>
+
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-169007209-3"></script> -->
@@ -78,9 +86,27 @@
         Hi, I'm
       </h4>
       <h1><a href="index.html" id="full-name"> Uğur ÖZCAN</a></h1>
-      <!-- <h2 style="color: #fff">
-          I'm <span class="typing" style="color: #12d640"></span>
-        </h2> -->
+      <h2 class="hero-subtitle">
+        Senior Data Engineer | Tech Lead — <span class="typing" style="color: #12d640"></span>
+      </h2>
+      <br>
+      <div class="hero-intro">
+        I build reliable data platforms and NLP/LLM solutions — from large-scale data collection to
+        production-grade pipelines and analytics. Currently leading technical delivery at Huawei.
+      </div>
+      <br>
+      <div class="hero-meta">
+        7+ yrs experience · 10+ data pipelines · 3+ LLM/NLP projects · Based in Muğla, TR · Open to remote
+      </div>
+      <br>
+      <div class="worked-with">
+        <span class="worked-with-label">Worked with</span>
+        <div class="worked-with-logos">
+          <img src="https://www.vectorlogo.zone/logos/huawei/huawei-ar21.svg" alt="Huawei" style="height: 32px" />
+          <img src="assets/img/fited_logo.png" alt="Fited" style="height: 32px" />
+          <img src="assets/img/Radboud_Universiteit_Logo.png" alt="Radboud University" style="height: 32px" />
+        </div>
+      </div>
       <nav class="nav-menu d-none d-lg-block">
         <ul>
           <li class="active">
@@ -257,7 +283,28 @@
             <h4 style="text-align: left">
               <a href="https://www.huawei.com/en/" style="color: #071814">Huawei</a><br />
             </h4>
-            <h5 style="text-align: left">January 2023 – Present</h5>
+            <h5 style="text-align: left">July 2025 – Present</h5>
+            <p style="text-align: left; color: #172615; font-size: medium">
+              <em>Senior Data Engineer | Tech Lead</em>
+            </p>
+            <ul style="text-align: left">
+              <li><strong>Tech Lead:</strong> Responsible for the technical direction of the team, ensuring that the team is using the best practices and tools for the job. Also, responsible for the codebase review and update processes to ensure code quality and consistency within the team. Managed the health and organization of team repositories to facilitate seamless collaboration and version control.</li>
+              <li><strong>Data Crawling Projects Management:</strong> Managed the extraction of textual data from
+                targeted websites for the job.</li>
+              <li><strong>Data Engineering:</strong> Responsible for the data engineering tasks, including the development of data pipelines and the use of data engineering tools and frameworks.</li>
+            </ul>
+          </div>
+
+
+        <!-- Huawei -->
+        <div class="col-lg-12" data-aos="fade-up">
+          <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100">
+            <img src="https://www.vectorlogo.zone/logos/huawei/huawei-ar21.svg" alt="Huawei Logo"
+              style="width: 200px; height: auto; margin-right: 10px;" />
+            <h4 style="text-align: left">
+              <a href="https://www.huawei.com/en/" style="color: #071814">Huawei</a><br />
+            </h4>
+            <h5 style="text-align: left">January 2023 – July 2025</h5>
             <p style="text-align: left; color: #172615; font-size: medium">
               <em>Data Engineer</em>
             </p>
@@ -621,9 +668,9 @@
         <div class="col-md-6 d-flex align-items-stretch">
           <div class="info-box">
             <h3>Gamze Tamur</h3>
-            <p><strong>Position:</strong> Fited Teknoloji A.Ş.</p>
+            <p><strong>Position:</strong> Ex Fited - Software Engineer at UMC Utrecht Brain Center</p>
             <p><strong>Email:</strong> <a href="mailto:gtamur@gmail.com">gtamur@gmail.com</a>, <a
-                href="mailto:gamze@fited.co">gamze@fited.co</a></p>
+                href="mailto:G.Tamur@umcutrecht.nl">G.Tamur@umcutrecht.nl</a></p>
             <p><strong>Phone:</strong> +90 541 726 48 93</p>
           </div>
         </div>
@@ -632,8 +679,8 @@
         <div class="col-md-6 mt-4 d-flex align-items-stretch">
           <div class="info-box">
             <h3>Berke Can Malkoç</h3>
-            <p><strong>Position:</strong> Fited Teknoloji A.Ş.</p>
-            <p><strong>Email:</strong> <a href="mailto:berke@fited.co">berke@fited.co</a></p>
+            <p><strong>Position:</strong> Ex Fited - Researcher at Nişantaşı University</p>
+            <p><strong>Email:</strong> <a href="mailto:berkecan.malkoc@nisantasi.edu.tr">berkecan.malkoc@nisantasi.edu.tr</a></p>
             <p><strong>Phone:</strong> +90 505 787 50 12</p>
           </div>
         </div>
@@ -677,14 +724,19 @@
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/venobox/venobox.min.js"></script>
   <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <!-- <script type="text/javascript">
-      var typed = new Typed('.typing', {
-        strings: ['Developer', 'Tester', 'IoT Enthusiast'],
-        loop: true,
-        typeSpeed: 65,
-        backSpeed: 65,
+  <script type="text/javascript">
+      document.addEventListener('DOMContentLoaded', function() {
+        if (window.Typed) {
+          var typed = new Typed('.typing', {
+            strings: ['NLP & LLMs', 'Data Platforms', 'Data Collection & Crawling', 'Machine Learning'],
+            loop: true,
+            typeSpeed: 60,
+            backSpeed: 40,
+            backDelay: 1200
+          });
+        }
       });
-    </script> -->
+    </script>
   <!-- <script type="text/javascript">
       var custom_greet = document.getElementById('#intro-greeting');
       var header = document.getElementById('#header');
